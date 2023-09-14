@@ -1,0 +1,127 @@
+
+header{
+}
+.pc{
+    text-align: center;
+    text-decoration: overline;
+    color: black;
+    font-size: 400%;
+    margin-top: -3.3%;
+}
+.pc > a{
+    text-decoration: underline;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.logo{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.Ig{
+    width: 40px;
+}
+.Fb{
+    width: 48px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 300px;
+    display: flex;
+    border:black;
+}
+
+.pic{
+    border-radius: 2%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1392px) {
+    .logo{
+        margin-top: 2%;
+        margin-left: 4%;
+    }
+    .pc{
+        margin-top: -5%;
+    }
+}
+
+@media (max-width: 1200px){
+    .pc{
+        margin-top: -6%;
+    }
+}
+
+@media (max-width: 900px){
+    .pc{
+        margin-top: -7%;
+    }
+    .logo{
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 750px){
+    .pc{
+        margin-top: -8.5%;
+    }
+    .logo{
+        margin-top: 4%;
+    }
+}
+
+@media (max-width: 660px){
+    .pc{
+        margin-top: -9.7%;
+    }
+    .logo{
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 660px){
+    .pc{
+        margin-top: -9.7%;
+    }
+    .logo{
+        margin-top: 5%;
+    }
+}
+@media (max-width: 620px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pc{
+        margin-top: 1%;
+        display: flex;
+    }
+    .logo{
+        margin-top: 1%;
+        display: flex;
+    }
+    .Ig{
+        width: 35px;
+    }
+    .Fb{
+        width: 39px;
+        margin-top: -3px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card{
+        margin-top: 1%;
+        width: 300px;
+        display: flex;
+        border:black;
+    }
+}
