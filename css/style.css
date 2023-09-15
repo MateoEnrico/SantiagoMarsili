@@ -17,14 +17,25 @@ header{
     margin-top: 1%;
     margin-left: 3%;
 }
+.ws{
+    width: 44px;
+    margin-top: 1px;
+}
 .Ig{
     width: 40px;
 }
 .Fb{
     width: 48px;
 }
+main{
+    margin-top: 1%;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
 
 .container{
+    margin-top: 1%;
     display: flex;
     justify-content: space-around;
 }
@@ -105,8 +116,13 @@ header{
         margin-top: 1%;
         display: flex;
     }
+    .ws{
+        width: 33px;
+        margin-top: 1px;
+    }
     .Ig{
         width: 35px;
+        margin-left: 3px;
     }
     .Fb{
         width: 39px;
