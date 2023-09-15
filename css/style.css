@@ -34,6 +34,9 @@ main{
     color: black;
     font-size: 300%;
 }
+.sub{
+    margin-top: 2%;
+}
 
 .subTitles{
     text-decoration: none;
