@@ -3,8 +3,8 @@ header{
 }
 .pc{
     text-align: center;
-    text-decoration: overline;
-    color: black;
+    color: black; 
+    text-decoration: overline; 
     font-size: 400%;
     margin-top: -3.3%;
 }
@@ -31,7 +31,18 @@ main{
     margin-top: 1%;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
+    color: black;
+    font-size: 300%;
+}
+
+.subTitles{
+    text-decoration: none;
+    color: black;
     text-decoration: underline;
+}
+
+.subTitles:hover{
+    color: rgb(70, 70, 70);
 }
 
 .container{
