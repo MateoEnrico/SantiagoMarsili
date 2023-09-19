@@ -1,4 +1,3 @@
-
 header{
 }
 .pc{
@@ -28,7 +27,7 @@ header{
     width: 48px;
 }
 
-/* terminaste con el navbar */
+/* termino el navbar */
 
 main{
     margin-top: 1%;
@@ -51,21 +50,7 @@ main{
     color: rgb(70, 70, 70);
 }
 
-.container{
-    margin-top: 1%;
-    display: flex;
-    justify-content: space-around;
-}
 
-.card{
-    width: 300px;
-    display: flex;
-    border:black;
-}
-
-.pic{
-    border-radius: 2%;
-}
 
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 1392px) {
